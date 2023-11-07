@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.video-feed {
+    overflow-y: auto;
+    width: 100%;
+}
+
+.video-container {
+    width: 100%;
+    position: relative;
+}
+
+.video-player {
+    width: 100%;
+    display: block;
+}
+
+/* Adjust the video container's minimum height to your preference */
+.video-container {
+    min-height: 50vh; /* Example height, can be set to screen height or any desired value */
+}

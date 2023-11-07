@@ -1,0 +1,6 @@
+class FightVideo {
+    constructor()
+    {
+        
+    }
+}

@@ -1,0 +1,22 @@
+/* static/css/date-list.css */
+#dateListContainer {
+    position: relative; /* Ensures that the container is positioned relatively within its parent */
+    height: calc(100vh - 50px); /* Adjust the 50px if you have a header or any other elements at the top */
+    overflow-y: auto; /* Adds a scrollbar when the content overflows */
+  }
+  
+  #dateList .list-group-item {
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#dateList .list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+#dateList .list-group-item.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
